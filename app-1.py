@@ -3,6 +3,7 @@ import io
 import math
 import os
 import random
+from concurrent.futures import ThreadPoolExecutor
 from urllib.parse import quote
 
 import requests
@@ -151,6 +152,15 @@ FONT_URL = ("https://github.com/google/fonts/raw/main/ofl/greatvibes/"
 
 
 # ---------------- Helpers ----------------
+def show_image(img):
+    """Works on old and new Streamlit versions (use_container_width was
+    replaced by width='stretch')."""
+    try:
+        st.image(img, width="stretch")
+    except TypeError:
+        st.image(img, use_container_width=True)
+
+
 def ensure_script_font():
     """Script font illa na auto-download pannum (oru dhadava mattum)."""
     if os.path.exists(FONT_FILE):
@@ -332,8 +342,11 @@ with st.form("cake_form"):
     )
     ref = st.file_uploader("Reference Cake Image (optional)",
                            type=["png", "jpg", "jpeg"])
-    go = st.form_submit_button("Generate My Cake Design",
-                               use_container_width=True)
+    try:
+        go = st.form_submit_button("Generate My Cake Design", width="stretch")
+    except TypeError:
+        go = st.form_submit_button("Generate My Cake Design",
+                                   use_container_width=True)
 
 # ---------------- Result ----------------
 if go:
@@ -346,9 +359,10 @@ if go:
     st.header("✨ Your Personalised Cake")
     left, right = st.columns(2)
 
+    ref_desc, ref_colour = None, None
+
     with left:
         # ---- Reference analysis ----
-        ref_desc, ref_colour = None, None
         if ref is not None:
             ref_bytes = ref.getvalue()
             with st.spinner("Reading your reference image..."):
@@ -392,8 +406,12 @@ if go:
 
         st.subheader("Generated Design")
         with st.spinner("Designing your cake... this can take 20-60 seconds"):
-            top_data = fetch_image(make_url(top_prompt))
-            side_data = fetch_image(make_url(side_prompt))
+            # Rendu images-um onna fetch pannum (time save)
+            with ThreadPoolExecutor(max_workers=2) as pool:
+                f_top = pool.submit(fetch_image, make_url(top_prompt))
+                f_side = pool.submit(fetch_image, make_url(side_prompt))
+                top_data = f_top.result()
+                side_data = f_side.result()
 
         line1 = topper.strip()
         line2 = note.strip() if len(note.strip()) <= 40 else ""
@@ -402,15 +420,14 @@ if go:
         with tab_top:
             if top_data:
                 try:
-                    st.image(add_text(top_data, line1, line2),
-                             use_container_width=True)
+                    show_image(add_text(top_data, line1, line2))
                 except Exception:
-                    st.image(top_data, use_container_width=True)
+                    show_image(top_data)
             else:
                 st.warning("Image server is busy. Press the button again.")
         with tab_side:
             if side_data:
-                st.image(side_data, use_container_width=True)
+                show_image(side_data)
             else:
                 st.warning("Image server is busy. Press the button again.")
 
@@ -429,17 +446,6 @@ if go:
             st.write(f"**Topper text:** {topper}")
         if note.strip():
             st.write(f"**Message:** {note}")
-        st.write(f"**People:** {people}")
-        st.write(f"**Recommended size:** {rec_weight:g} kg for {people} people")
-        st.write(f"**Selected size:** {final_weight:g} kg")
-        st.markdown(f"<p class='price'>Estimated price: ₹{price:,}</p>",
-                    unsafe_allow_html=True)
-        if price > budget:
-            st.warning("This is above your budget. Try a smaller size, "
-                       "fewer toppings or a cheaper flavour.")
-        else:
-            st.success("Within your budget.")
-        if ref is not None:
-            st.write("**Your reference image:**")
-            st.image(ref, use_container_width=True)
-            if ref_desc
+            if len(note.strip()) > 40:
+                st.caption("Message is too long to print on the cake image, "
+           
