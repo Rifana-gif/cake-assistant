@@ -1,0 +1,121 @@
+id,name,flavour,occasion,style,colour,size_kg,tiers,price
+1,Black Forest Drip Cake,Black Forest,Wedding,Drip,Pink,3,3,2168
+2,Vanilla Photo Cake,Vanilla,Anniversary,Photo,Pink,3,2,1654
+3,Vanilla Drip Cake,Vanilla,Baby Shower,Drip,White,1,1,551
+4,Blueberry Floral Cake,Blueberry,Baby Shower,Floral,White,1,1,810
+5,Coffee Photo Cake,Coffee,Birthday,Photo,Brown,0.5,1,523
+6,Chocolate Minimalist Cake,Chocolate,Graduation,Minimalist,Gold,2,1,878
+7,Blueberry Photo Cake,Blueberry,Birthday,Photo,Gold,3,2,2083
+8,Coffee Theme Cake,Coffee,Graduation,Theme,Red,1.5,1,1027
+9,Blueberry Floral Cake,Blueberry,Festival,Floral,Pink,3,2,2083
+10,Blueberry Fondant Cake,Blueberry,Baby Shower,Fondant,Yellow,3,3,2516
+11,Butterscotch Minimalist Cake,Butterscotch,Wedding,Minimalist,Red,3,3,1793
+12,Butterscotch Drip Cake,Butterscotch,Graduation,Drip,Purple,4,3,2376
+13,Coffee Floral Cake,Coffee,Birthday,Floral,Brown,1,1,776
+14,Black Forest Drip Cake,Black Forest,Wedding,Drip,Brown,3,3,2185
+15,Vanilla Photo Cake,Vanilla,Graduation,Photo,Purple,1.5,1,918
+16,Black Forest Drip Cake,Black Forest,Graduation,Drip,Yellow,0.5,1,411
+17,Butterscotch Theme Cake,Butterscotch,Baby Shower,Theme,White,0.5,1,613
+18,Butterscotch Photo Cake,Butterscotch,Festival,Photo,Yellow,1.5,1,981
+19,Pineapple Fondant Cake,Pineapple,Festival,Fondant,Pink,2,1,1255
+20,Strawberry Floral Cake,Strawberry,Graduation,Floral,Yellow,0.5,1,447
+21,Butterscotch Theme Cake,Butterscotch,Wedding,Theme,Red,2,1,1200
+22,Mango Minimalist Cake,Mango,Birthday,Minimalist,Yellow,2,1,890
+23,Butterscotch Drip Cake,Butterscotch,Wedding,Drip,Gold,4,3,2385
+24,Pineapple Minimalist Cake,Pineapple,Wedding,Minimalist,White,3,3,1679
+25,Red Velvet Minimalist Cake,Red Velvet,Festival,Minimalist,Pink,2,1,1135
+26,Strawberry Fondant Cake,Strawberry,Anniversary,Fondant,Pink,1,1,883
+27,Blueberry Photo Cake,Blueberry,Anniversary,Photo,Purple,1,1,868
+28,Blueberry Theme Cake,Blueberry,Graduation,Theme,Pink,2,1,1449
+29,Blueberry Drip Cake,Blueberry,Baby Shower,Drip,Brown,2,1,1213
+30,Mango Drip Cake,Mango,Festival,Drip,Pink,1,1,598
+31,Red Velvet Minimalist Cake,Red Velvet,Baby Shower,Minimalist,White,1.5,1,861
+32,Chocolate Floral Cake,Chocolate,Birthday,Floral,Blue,3,2,1856
+33,Coffee Floral Cake,Coffee,Birthday,Floral,Red,3,3,2139
+34,Butterscotch Photo Cake,Butterscotch,Anniversary,Photo,Purple,2,1,1115
+35,Vanilla Drip Cake,Vanilla,Baby Shower,Drip,Yellow,2,1,959
+36,Vanilla Floral Cake,Vanilla,Wedding,Floral,Purple,4,3,2291
+37,Strawberry Floral Cake,Strawberry,Graduation,Floral,Red,3,3,1988
+38,Blueberry Photo Cake,Blueberry,Birthday,Photo,Gold,4,2,2679
+39,Butterscotch Fondant Cake,Butterscotch,Graduation,Fondant,Blue,1.5,1,1138
+40,Red Velvet Photo Cake,Red Velvet,Graduation,Photo,Purple,4,2,2788
+41,Red Velvet Drip Cake,Red Velvet,Wedding,Drip,Red,3,3,2376
+42,Mango Theme Cake,Mango,Anniversary,Theme,Pink,0.5,1,560
+43,Mango Minimalist Cake,Mango,Anniversary,Minimalist,Purple,2,1,912
+44,Black Forest Floral Cake,Black Forest,Anniversary,Floral,Red,0.5,1,479
+45,Mango Fondant Cake,Mango,Wedding,Fondant,Red,2,1,1349
+46,Coffee Drip Cake,Coffee,Birthday,Drip,Purple,4,2,2374
+47,Vanilla Theme Cake,Vanilla,Baby Shower,Theme,Red,2,1,1092
+48,Pineapple Fondant Cake,Pineapple,Festival,Fondant,White,4,3,2569
+49,Pineapple Floral Cake,Pineapple,Festival,Floral,Blue,1,1,626
+50,Chocolate Photo Cake,Chocolate,Wedding,Photo,Yellow,4,2,2388
+51,Coffee Theme Cake,Coffee,Baby Shower,Theme,Purple,1,1,850
+52,Blueberry Floral Cake,Blueberry,Wedding,Floral,Pink,4,2,2607
+53,Strawberry Minimalist Cake,Strawberry,Baby Shower,Minimalist,Red,0.5,1,202
+54,Red Velvet Photo Cake,Red Velvet,Anniversary,Photo,Red,3,3,2443
+55,Blueberry Minimalist Cake,Blueberry,Baby Shower,Minimalist,Pink,4,3,2598
+56,Coffee Drip Cake,Coffee,Graduation,Drip,Blue,3,2,1887
+57,Blueberry Drip Cake,Blueberry,Birthday,Drip,Blue,3,2,2069
+58,Strawberry Minimalist Cake,Strawberry,Wedding,Minimalist,Yellow,3,2,1541
+59,Chocolate Theme Cake,Chocolate,Anniversary,Theme,Yellow,0.5,1,606
+60,Chocolate Minimalist Cake,Chocolate,Wedding,Minimalist,Gold,3,3,1908
+61,Vanilla Drip Cake,Vanilla,Graduation,Drip,Pink,0.5,1,406
+62,Black Forest Photo Cake,Black Forest,Graduation,Photo,Red,4,3,2737
+63,Blueberry Drip Cake,Blueberry,Graduation,Drip,Red,4,3,2811
+64,Red Velvet Minimalist Cake,Red Velvet,Baby Shower,Minimalist,Brown,0.5,1,285
+65,Mango Floral Cake,Mango,Anniversary,Floral,Red,2,1,1079
+66,Red Velvet Fondant Cake,Red Velvet,Festival,Fondant,White,1,1,1051
+67,Black Forest Fondant Cake,Black Forest,Wedding,Fondant,Blue,2,1,1398
+68,Vanilla Drip Cake,Vanilla,Baby Shower,Drip,Blue,4,2,1950
+69,Pineapple Drip Cake,Pineapple,Graduation,Drip,Purple,2,1,985
+70,Black Forest Floral Cake,Black Forest,Anniversary,Floral,Purple,0.5,1,493
+71,Blueberry Drip Cake,Blueberry,Baby Shower,Drip,Pink,2,1,1242
+72,Blueberry Fondant Cake,Blueberry,Graduation,Fondant,White,0.5,1,770
+73,Red Velvet Floral Cake,Red Velvet,Birthday,Floral,Gold,1.5,1,1040
+74,Strawberry Minimalist Cake,Strawberry,Anniversary,Minimalist,Brown,4,3,2191
+75,Strawberry Photo Cake,Strawberry,Graduation,Photo,Yellow,4,3,2451
+76,Butterscotch Theme Cake,Butterscotch,Birthday,Theme,Blue,2,1,1159
+77,Butterscotch Theme Cake,Butterscotch,Birthday,Theme,White,1.5,1,950
+78,Coffee Floral Cake,Coffee,Wedding,Floral,Gold,3,3,2178
+79,Chocolate Photo Cake,Chocolate,Anniversary,Photo,Brown,1.5,1,1014
+80,Strawberry Photo Cake,Strawberry,Birthday,Photo,Red,0.5,1,490
+81,Butterscotch Minimalist Cake,Butterscotch,Birthday,Minimalist,Red,1.5,1,670
+82,Butterscotch Minimalist Cake,Butterscotch,Graduation,Minimalist,Gold,2,1,864
+83,Strawberry Fondant Cake,Strawberry,Anniversary,Fondant,Pink,1.5,1,1044
+84,Chocolate Theme Cake,Chocolate,Birthday,Theme,Red,3,3,2191
+85,Mango Theme Cake,Mango,Birthday,Theme,Brown,4,3,2599
+86,Pineapple Fondant Cake,Pineapple,Graduation,Fondant,Red,1,1,853
+87,Red Velvet Theme Cake,Red Velvet,Festival,Theme,Blue,2,1,1454
+88,Chocolate Floral Cake,Chocolate,Wedding,Floral,White,4,3,2565
+89,Strawberry Floral Cake,Strawberry,Birthday,Floral,Brown,3,3,2046
+90,Red Velvet Fondant Cake,Red Velvet,Festival,Fondant,Pink,2,1,1533
+91,Strawberry Drip Cake,Strawberry,Anniversary,Drip,Pink,1.5,1,836
+92,Black Forest Fondant Cake,Black Forest,Graduation,Fondant,Red,0.5,1,689
+93,Red Velvet Minimalist Cake,Red Velvet,Anniversary,Minimalist,Pink,1.5,1,833
+94,Vanilla Fondant Cake,Vanilla,Baby Shower,Fondant,Red,1,1,854
+95,Chocolate Fondant Cake,Chocolate,Birthday,Fondant,White,1,1,911
+96,Coffee Drip Cake,Coffee,Birthday,Drip,Pink,1.5,1,903
+97,Red Velvet Photo Cake,Red Velvet,Birthday,Photo,Blue,4,3,3057
+98,Black Forest Drip Cake,Black Forest,Festival,Drip,Blue,1.5,1,972
+99,Coffee Minimalist Cake,Coffee,Festival,Minimalist,Pink,4,3,2433
+100,Blueberry Photo Cake,Blueberry,Wedding,Photo,Pink,4,2,2600
+101,Chocolate Minimalist Cake,Chocolate,Birthday,Minimalist,Purple,0.5,1,233
+102,Mango Floral Cake,Mango,Graduation,Floral,Pink,4,2,2242
+103,Butterscotch Drip Cake,Butterscotch,Birthday,Drip,White,4,2,2174
+104,Blueberry Theme Cake,Blueberry,Birthday,Theme,Yellow,1.5,1,1099
+105,Butterscotch Theme Cake,Butterscotch,Wedding,Theme,Red,3,3,2164
+106,Mango Drip Cake,Mango,Baby Shower,Drip,White,2,1,1107
+107,Butterscotch Photo Cake,Butterscotch,Birthday,Photo,Red,0.5,1,546
+108,Strawberry Fondant Cake,Strawberry,Anniversary,Fondant,Gold,3,2,1921
+109,Mango Drip Cake,Mango,Birthday,Drip,Gold,4,2,2218
+110,Red Velvet Drip Cake,Red Velvet,Festival,Drip,Gold,4,3,2919
+111,Mango Floral Cake,Mango,Baby Shower,Floral,Red,1.5,1,865
+112,Mango Fondant Cake,Mango,Birthday,Fondant,Yellow,0.5,1,689
+113,Mango Drip Cake,Mango,Anniversary,Drip,Red,1,1,599
+114,Coffee Minimalist Cake,Coffee,Birthday,Minimalist,Gold,1.5,1,681
+115,Coffee Photo Cake,Coffee,Festival,Photo,Gold,0.5,1,585
+116,Black Forest Drip Cake,Black Forest,Wedding,Drip,Yellow,2,1,1123
+117,Strawberry Drip Cake,Strawberry,Birthday,Drip,Yellow,2,1,1038
+118,Strawberry Fondant Cake,Strawberry,Baby Shower,Fondant,Brown,1.5,1,1055
+119,Black Forest Fondant Cake,Black Forest,Birthday,Fondant,Purple,2,1,1385
+120,Red Velvet Floral Cake,Red Velvet,Festival,Floral,Gold,1.5,1,1082
